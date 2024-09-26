@@ -2,9 +2,7 @@ package files;
 
 public class Payload {
 
-	public static String AddPlace()
-
-	{
+	public static String AddPlace() {
 		return "{\r\n" + "  \"location\": {\r\n" + "    \"lat\": -38.383494,\r\n" + "    \"lng\": 33.427362\r\n"
 				+ "  },\r\n" + "  \"accuracy\": 50,\r\n" + "  \"name\": \"Rahul Shetty Academy\",\r\n"
 				+ "  \"phone_number\": \"(+91) 983 893 3937\",\r\n"
@@ -24,7 +22,5 @@ public class Payload {
 				+ "      \"price\": 45,\r\n" + "      \"copies\": 10\r\n" + "    },\r\n" + "     {\r\n"
 				+ "      \"title\": \"Appium\",\r\n" + "      \"price\": 36,\r\n" + "      \"copies\": 7\r\n"
 				+ "    }\r\n" + "    \r\n" + "    \r\n" + "    \r\n" + "  ]\r\n" + "}\r\n" + "";
-
 	}
-
 }
