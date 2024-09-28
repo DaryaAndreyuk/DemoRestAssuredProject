@@ -10,11 +10,11 @@ public class Basics {
 
 	public static void main(String[] args) {
 		// validate if Add Place API is workimg as expected
-		// Add place-> Update Place with New Address -> Get Place to validate if New
+		// Add place -> Update Place with New Address -> Get Place to validate if New
 		// address is present in response
 
 		// given - all input details
-		// when - Submit the API -resource,http method
+		// when - Submit the API - resource, http method
 		// Then - validate the response
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
