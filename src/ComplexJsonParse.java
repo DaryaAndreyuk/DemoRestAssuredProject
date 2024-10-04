@@ -18,13 +18,13 @@ public class ComplexJsonParse {
 		String titleFirstCourse = js.get("courses[2].title");
 		System.out.println(titleFirstCourse);
 
-		// Print All course titles and their respective Prices
+		// Print all course titles and their respective Prices
 		for (int i = 0; i < count; i++) {
 			String courseTitles = js.get("courses[" + i + "].title");
 			System.out.println(js.get("courses[" + i + "].price").toString());
 			System.out.println(courseTitles);
 		}
-		// Print no of copies sold by RPA Course
+		// Print number of copies sold by RPA Course
 		System.out.println("Print no of copies sold by RPA Course");
 
 		for (int i = 0; i < count; i++) {
